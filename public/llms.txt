@@ -1,0 +1,42 @@
+# Effect Atom Tutorial
+
+> Effect Atom Tutorial is a self-paced workshop that teaches effect-atom patterns through 14 guided modules with runnable Effect demos.
+
+Effect Atom Tutorial is a React Router + Vite application that introduces effect-atom concepts with concise explanations, inline notes, and live playground canvases. Each module route lives under `/modules/{slug}` and shares a consistent layout that makes the surrounding narrative easy for LLMs to ingest after trimming UI chrome.
+
+The sidebar navigation enumerates every module, and the home page provides curated learning tracks plus links to external documentation, community support, and the source repository.
+
+## Start Here
+
+- [Overview](/): Landing page with hero summary, suggested learning tracks, supporting resources, and links into the module grid.
+- [Tutorial navigation](/modules/counter): First module entry; the module layout provides the same sidebar used across all modules for sequential reading.
+
+## Module Index
+
+- [Counter](/modules/counter): Learn how atoms encapsulate synchronous state updates with minimal boilerplate.
+- [Derived State](/modules/derived-state): Layer derived atoms on top of base state to unlock expressive computed dataflows.
+- [Effects](/modules/effects): Coordinate asynchronous workstreams while handling loading and failure states predictably.
+- [Scoped Effects](/modules/scoped-effects): Bind resources to component lifecycles for automatic cleanup and safer orchestration.
+- [Services & Layers](/modules/services-and-layers): Compose runtime layers that provide dependencies across the atom graph.
+- [Streams](/modules/streams): Model time-based pipelines and multi-step workflows with Effect streams.
+- [Atom Sets](/modules/atom-sets): Build keyed families of atoms to manage collections and dynamic records.
+- [Functions](/modules/functions): Extract reusable logic from components with Effect-powered functions.
+- [Event Listener](/modules/event-listener): Bridge DOM events into the Effect runtime with automatic cleanup.
+- [Search Params](/modules/search-params): Synchronise URL search parameters with state for shareable experiences.
+- [Local Storage](/modules/local-storage): Persist state to the browser while keeping the data flow typed.
+- [Reactivity](/modules/reactivity): Master invalidation strategies so the UI stays responsive under pressure.
+- [RPC Integration](/modules/rpc-integration): Share type-safe contracts between clients and servers using RPC.
+- [HTTP API Integration](/modules/http-api-integration): Use schema-driven HTTP clients to reach external APIs resiliently.
+
+## Reference & Support
+
+- [Effect Atom guide](https://effect.website/docs/guides/effect-atom): Official documentation covering the Effect primitives used throughout the tutorial.
+- [Effect documentation](https://effect.website/docs): Comprehensive Effect runtime docs for deeper background.
+- [Tutorial source repository](https://github.com/lifeiscontent/effect-atom-tutorial): Git repository containing the site implementation and runnable examples.
+- [Issue tracker](https://github.com/lifeiscontent/effect-atom-tutorial/issues): Report fixes or request clarifications for specific modules.
+
+## Optional
+
+- [Effect Playground](https://effect.website/play): Browser-based environment for experimenting with Effect snippets alongside the tutorial.
+- [Effect community Discord](https://discord.gg/effect-ts): Community chat for questions about Effect and effect-atom patterns.
+- [Download code snippets](https://github.com/lifeiscontent/effect-atom-tutorial): Clone or download the repository archive when local experimentation is sufficient.
